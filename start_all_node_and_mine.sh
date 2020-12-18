@@ -9,7 +9,10 @@ sudo gnome-terminal -- bash -c "geth --datadir go-ethereum/Node_0 --networkid 48
 sudo gnome-terminal -- bash -c "sudo expect Node_0.exp"
 
 # start Node_1 to Node_3 with console and mine
+read -n 1 -r -s -p $'Press enter to continue...\n'
 sudo gnome-terminal -- bash -c "sudo expect Node_1.exp"
+read -n 1 -r -s -p $'Press enter to continue...\n'
 sudo gnome-terminal -- bash -c "sudo expect Node_2.exp"
+read -n 1 -r -s -p $'Press enter to continue...\n'
 sudo gnome-terminal -- bash -c "sudo expect Node_3.exp"
 #sudo gnome-terminal -- bash -c "sudo expect Node_4.exp"
