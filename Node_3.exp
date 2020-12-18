@@ -1,6 +1,6 @@
 #!/bin/expect
 
-spawn geth --datadir go-ethereum/Node_3 --networkid 4869 --port 30003 --netrestrict 140.113.216.0/24 console --bootnodes enode://cee14e2b1a8f7d59a0e2a03b7b4d51dc605746aa6b86f6357cd2ea29d09f9ff7bb1f4c8f27f0d7639e44be28232b9139f7792c788fb1a8ce8147d5073d6391d8@140.113.216.75:30000
+spawn geth --datadir go-ethereum/Node_3 --networkid 4869 --port 30003 --netrestrict 140.113.216.0/24 console --bootnodes enode://2c7daa8cb639f74e018875bbc10bf7fd4f9cea1cd5344eda66e3fe6591ef8fa4fba107c0d2e8670da7ace8e2b8e7c2aaac37b8deba8415151c3b8b1ab77d649b@140.113.216.70:30000
 
 expect ">"
 send "miner.start(1)\n"
