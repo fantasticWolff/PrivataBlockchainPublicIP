@@ -40,3 +40,35 @@
 20:03:16.259884 db@open done T·136.233816ms
 20:21:44.156949 db@close closing
 20:21:44.156997 db@close done T·47.203µs
+=============== Dec 21, 2020 (CST) ===============
+19:54:43.576014 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:43.576106 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+19:54:43.576133 db@open opening
+19:54:43.576227 journal@recovery F·1
+19:54:43.577824 journal@recovery recovering @9
+19:54:44.384813 memdb@flush created L0@11 N·12782 S·735KiB "\x04\x06k..\xae}\xea,v335":"\xff\x12\x98..v\x89e,v12846"
+19:54:44.390141 version@stat F·[4] S·738KiB[738KiB] Sc·[1.00]
+19:54:45.236178 db@janitor F·6 G·0
+19:54:45.236229 db@open done T·1.660083474s
+19:54:45.236364 table@compaction L0·4 -> L1·0 S·738KiB Q·12855
+19:54:45.473565 table@build created L1@14 N·8366 S·573KiB "\x04\x06k..\xae}\xea,v335":"\xff\x12\x98..v\x89e,v12846"
+19:54:45.473692 version@stat F·[0 1] S·573KiB[0B 573KiB] Sc·[0.00 0.01]
+19:54:45.565973 table@compaction committed F-3 S-165KiB Ke·0 D·4485 T·329.524858ms
+19:54:45.566179 table@remove removed @8
+19:54:45.566263 table@remove removed @5
+19:54:45.566330 table@remove removed @2
+20:01:55.863730 db@close closing
+20:01:55.863809 db@close done T·94.431µs
+=============== Dec 21, 2020 (CST) ===============
+20:07:06.209179 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:07:06.209324 version@stat F·[0 1] S·573KiB[0B 573KiB] Sc·[0.00 0.01]
+20:07:06.209343 db@open opening
+20:07:06.209388 journal@recovery F·1
+20:07:06.211321 journal@recovery recovering @12
+20:07:06.729704 memdb@flush created L0@15 N·218109 S·10MiB "\t)[..4\\\x84,v230952":"\xed\xd1?..tB\v,v230956"
+20:07:06.731385 version@stat F·[1 1] S·11MiB[10MiB 573KiB] Sc·[0.25 0.01]
+20:07:06.849266 db@janitor F·5 G·1
+20:07:06.849277 db@janitor removing table-11
+20:07:06.849381 db@open done T·640.01699ms
+20:10:40.634619 db@close closing
+20:10:40.634654 db@close done T·35.416µs

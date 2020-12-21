@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y vim build-essential make wget
+sudo apt install -y vim build-essential make wget expect
 wget https://storage.googleapis.com/golang/go1.15.linux-amd64.tar.gz
 tar -xvf go1.15.linux-amd64.tar.gz
 sudo mv go /usr/local

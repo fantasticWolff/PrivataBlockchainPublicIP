@@ -42,3 +42,35 @@
 20:03:20.614538 db@open done T·181.812911ms
 20:21:49.044734 db@close closing
 20:21:49.044780 db@close done T·44.955µs
+=============== Dec 21, 2020 (CST) ===============
+19:54:43.685314 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:43.685404 version@stat F·[3] S·22KiB[22KiB] Sc·[0.75]
+19:54:43.685418 db@open opening
+19:54:43.685455 journal@recovery F·1
+19:54:43.686834 journal@recovery recovering @9
+19:54:44.384812 memdb@flush created L0@11 N·12194 S·708KiB "\r\xc9\xd7..j\v\xc0,v12662":"\xf8\xb8\xe2..\xc4~2,v12666"
+19:54:44.390323 version@stat F·[4] S·730KiB[730KiB] Sc·[1.00]
+19:54:45.236237 db@janitor F·6 G·0
+19:54:45.236296 db@open done T·1.550861464s
+19:54:45.236388 table@compaction L0·4 -> L1·0 S·730KiB Q·12670
+19:54:45.473598 table@build created L1@14 N·8268 S·565KiB "\x04\x06k..\xae}\xea,v468":"\xf8\xb8\xe2..\xc4~2,v12666"
+19:54:45.473711 version@stat F·[0 1] S·565KiB[0B 565KiB] Sc·[0.00 0.01]
+19:54:45.565930 table@compaction committed F-3 S-164KiB Ke·0 D·4398 T·329.464208ms
+19:54:45.566226 table@remove removed @8
+19:54:45.566298 table@remove removed @5
+19:54:45.566356 table@remove removed @2
+20:02:07.055158 db@close closing
+20:02:07.055221 db@close done T·61.887µs
+=============== Dec 21, 2020 (CST) ===============
+20:07:18.675616 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:07:18.675761 version@stat F·[0 1] S·565KiB[0B 565KiB] Sc·[0.00 0.01]
+20:07:18.675779 db@open opening
+20:07:18.675829 journal@recovery F·1
+20:07:18.677592 journal@recovery recovering @12
+20:07:19.251081 memdb@flush created L0@15 N·218091 S·10MiB "\t)[..4\\\x84,v230749":"\xed\xd1?..tB\v,v230753"
+20:07:19.252687 version@stat F·[1 1] S·11MiB[10MiB 565KiB] Sc·[0.25 0.01]
+20:07:19.362910 db@janitor F·5 G·1
+20:07:19.362928 db@janitor removing table-11
+20:07:19.363046 db@open done T·687.248268ms
+20:10:39.490714 db@close closing
+20:10:39.490767 db@close done T·50.695µs
